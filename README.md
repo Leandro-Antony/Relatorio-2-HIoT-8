@@ -71,7 +71,7 @@ $$V_{out} = 5\text{V} \cdot \frac{2000}{1100 + 2000} \approx 3{,}23\,\text{V}$$
 > A ordem importa: o resistor de 2 kΩ fica do lado do GND.
 
 ### Diagrama do circuito
-(ADICIONAR IMAGEM)
+<img src="./images/diagram.jpg" alt="Diagrama do circuito">
 
 (Wokwi)
 
@@ -96,17 +96,18 @@ $$d = \frac{v \cdot t}{2}, \quad v \approx 0{,}0343\ \text{cm/µs}$$
 
 ### Fotos (ADICIONAR)
 
-- Circuito montado e funcionando
+- Circuito montado
 
-<img src="./images/circuito_montado.jpg" alt="" width="300">
+<img src="./images/front.jpeg" alt="" width="500">
+<img src="./images/overview.jpeg" alt="" width="500">
 
-- Medições no monitor serial (objeto próximo)
+- Medições no monitor serial
 
-<img src="./images/medicao_proxima.jpg" alt="" width="300">
+<img src="./images/serial.jpg" alt="" width="300">
 
 - Medições no monitor serial (objeto fora do alcance: leitura 0)
 
-<img src="./images/medicao_fora_alcance.jpg" alt="" width="300">
+<img src="./images/serial_outtaRange.jpg" alt="" width="300">
 
 ## Como compilar e gravar
 
@@ -153,7 +154,7 @@ const float DISTANCIA_MAXIMA = 100.0; // detecta até 100 cm
 ├── images
 │    └── [...]
 ├── src
-│    └── sensor_ultrassom.ino
+│    └── medicao_hcsr04.ino
 └── README.md
 
 ```
