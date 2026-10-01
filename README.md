@@ -21,7 +21,7 @@ Projeto de laboratório para ESP32 que combina **saída digital (pulso de dispar
 - [Fotos](#fotos)
 - [Como compilar e gravar](#como-compilar-e-gravar)
 - [Saída serial](#saída-serial)
-- [Problemas encontrados](#problemas-encontrados)
+- [Problemas enfrentados](#problemas-enfrentados)
 - [Parâmetros configuráveis](#parâmetros-configuráveis)
 - [Estrutura do repositório](#estrutura-do-repositório)
 
