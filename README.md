@@ -10,7 +10,7 @@
 
 Projeto de laboratório para ESP32 que combina **saída digital (pulso de disparo)**, **medição de pulso (`pulseIn`)** e **comunicação serial** em um único circuito. O ESP32 dispara o sensor **HC-SR04**, mede o tempo de retorno do eco e converte esse tempo em distância, exibindo o resultado no monitor serial. A distância máxima de detecção é configurável: objetos além do limite resultam em leitura `0`.
 
-## Sumário CORRIGIR SUMÁRIO
+## Sumário
 
 - [Funcionalidades](#funcionalidades)
 - [Materiais](#materiais)
